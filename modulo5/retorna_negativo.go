@@ -6,7 +6,7 @@ func retornaNegativo (x float64) float64 {
 	if x <= 0 {
 		return x
 	} else {
-		return x - x * 2
+		return -x
 	}
 }
 

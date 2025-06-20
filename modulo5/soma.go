@@ -2,12 +2,14 @@ package main
 
 import "fmt"
 
-func main() {
-	num := 10
-	var list  [10]int
-
-	for i := 0; i < num; i++ {
-		list[]
+func soma (x int) int {
+	somas := 0
+	for i := 0; i <= x; i++ {
+		somas += i
 	}
-	fmt.Println(list)
+	return somas
+}
+
+func main() {
+	fmt.Println(soma(2))
 }
