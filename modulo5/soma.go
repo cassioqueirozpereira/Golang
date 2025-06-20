@@ -11,5 +11,5 @@ func soma (x int) int {
 }
 
 func main() {
-	fmt.Println(soma(2))
+	fmt.Println(soma(10))
 }
